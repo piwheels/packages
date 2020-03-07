@@ -21,3 +21,11 @@ all the information required, and add any extra information you have.
 If your issue is related to the piwheels project itself, not the packages on the
 piwheels.org repository, please use [piwheels/piwheels](https://github.com/piwheels/piwheels/issues)
 instead.
+
+## How you can help
+
+See the blog post [How you can help](https://blog.piwheels.org/how-you-can-help/)
+to see how you can help investigate missing packages.
+
+Also see this repo's [project board](https://github.com/piwheels/packages/projects/1)
+and issues tagged [missing package](https://github.com/piwheels/packages/labels/missing%20package).
