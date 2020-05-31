@@ -4,6 +4,8 @@ about: Let us know about another issue that's related to a particular package in
 
 ---
 
+<!-- PLEASE COMPLETE THE TEMPLATE -->
+
 Package name: example
 Link to PyPI page: https://pypi.org/project/example
 Link to piwheels page: https://www.piwheels.org/project/example

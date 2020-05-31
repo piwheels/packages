@@ -4,6 +4,8 @@ about: Let us know about a package that's missing from piwheels
 
 ---
 
+<!-- PLEASE COMPLETE THE TEMPLATE -->
+
 Package name: example
 Issue type: Missing package
 Link to PyPI page: https://pypi.org/project/example
