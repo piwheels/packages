@@ -1,0 +1,60 @@
+---
+name: Missing package (new)
+description: Let us know about a package that's missing from piwheels
+title: "Missing package: "
+labels: [missing package]
+body:
+  - type: input
+    id: package
+    attributes:
+      label: Package name
+      description: The name of the package
+    validations:
+      required: true
+  - type: input
+    id: pypi_url
+    attributes:
+      label: PyPI URL
+      description: Link to the PyPI page
+      placeholder: https://pypi.org/project/example
+      value: https://pypi.org/project/example
+    validations:
+      required: true
+  - type: input
+    id: package
+    attributes:
+      label: piwheels URL
+      description: Link to the piwheels project page
+      placeholder: https://www.piwheels.org/project/example
+      value: https://www.piwheels.org/project/example
+    validations:
+      required: true
+  - type: checkboxes
+    id: python_version
+    attributes:
+      label: Python version
+      description: Which version(s) of Python is the package missing for?
+      options:
+        - Python 3.5
+        - Python 3.7
+    validations:
+      required: true
+  - type: dropdown
+    id: maintainer
+    attributes:
+      label: I am the maintainer
+      description: Are you the maintainer of this package?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+  - type: textarea
+    id: more-info
+    attributes:
+      label: More information
+      description: Please give more information
+    validations:
+      required: false
+
+---
