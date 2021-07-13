@@ -1,8 +1,8 @@
 ---
-name: Missing package (new)
-description: Let us know about a package that's missing from piwheels
-title: "Missing package: "
-labels: [missing package]
+name: Package issue (new)
+description:  Let us know about an issue that's related to a particular package in piwheels
+title: "Package issue: "
+labels: [package issue]
 body:
   - type: input
     id: package
@@ -15,7 +15,7 @@ body:
     id: version
     attributes:
       label: Package version
-      description: The version(s) of the package which are missing
+      description: The version(s) of the package to which the issue relates
       placeholder: 1.0, 1.1 or all
     validations:
       required: true
@@ -39,7 +39,7 @@ body:
     id: python_version
     attributes:
       label: Python version
-      description: Which version(s) of Python is the package missing for?
+      description: Which version(s) of Python is the package issue for?
       options:
         - label: Python 3.5
         - label: Python 3.7
