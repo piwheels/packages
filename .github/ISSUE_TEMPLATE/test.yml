@@ -21,7 +21,7 @@ body:
     validations:
       required: true
   - type: input
-    id: package
+    id: piwheels_url
     attributes:
       label: piwheels URL
       description: Link to the piwheels project page
@@ -35,8 +35,8 @@ body:
       label: Python version
       description: Which version(s) of Python is the package missing for?
       options:
-        - Python 3.5
-        - Python 3.7
+        - label: Python 3.5
+        - label: Python 3.7
     validations:
       required: true
   - type: dropdown
@@ -45,8 +45,8 @@ body:
       label: I am the maintainer
       description: Are you the maintainer of this package?
       options:
-        - Yes
-        - No
+        - label: "Yes"
+        - label: "No"
     validations:
       required: true
   - type: textarea
