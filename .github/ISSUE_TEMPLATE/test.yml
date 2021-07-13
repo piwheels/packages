@@ -39,14 +39,13 @@ body:
         - label: Python 3.7
     validations:
       required: true
-  - type: dropdown
+  - type: checkboxes
     id: maintainer
     attributes:
       label: I am the maintainer
       description: Are you the maintainer of this package?
       options:
         - label: "Yes"
-        - label: "No"
     validations:
       required: true
   - type: textarea
