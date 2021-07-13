@@ -17,7 +17,6 @@ body:
       label: PyPI URL
       description: Link to the PyPI page
       placeholder: https://pypi.org/project/example
-      value: https://pypi.org/project/example
     validations:
       required: true
   - type: input
@@ -26,7 +25,6 @@ body:
       label: piwheels URL
       description: Link to the piwheels project page
       placeholder: https://www.piwheels.org/project/example
-      value: https://www.piwheels.org/project/example
     validations:
       required: true
   - type: checkboxes
