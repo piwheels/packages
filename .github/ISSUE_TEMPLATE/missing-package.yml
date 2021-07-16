@@ -39,10 +39,11 @@ body:
     id: python_version
     attributes:
       label: Python version
-      description: Which version(s) of Python is the package missing for?
+      description: Which versions of Python are the package missing for?
       options:
         - label: Python 3.5
         - label: Python 3.7
+        - label: Python 3.9
   - type: checkboxes
     id: maintainer
     attributes:
