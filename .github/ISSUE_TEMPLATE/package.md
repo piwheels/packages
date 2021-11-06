@@ -1,5 +1,5 @@
 ---
-name: Other package issue
+name: Other package issue (old)
 about: Let us know about another issue that's related to a particular package in piwheels
 
 ---

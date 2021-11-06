@@ -1,5 +1,5 @@
 ---
-name: Missing package (new)
+name: Missing package
 description: Let us know about a package that's missing from piwheels
 title: "Missing package: "
 labels: [missing package]

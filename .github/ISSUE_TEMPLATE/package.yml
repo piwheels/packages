@@ -1,5 +1,5 @@
 ---
-name: Package issue (new)
+name: Package issue
 description:  Let us know about an issue that's related to a particular package in piwheels
 title: "Package issue: "
 labels: [package issue]
