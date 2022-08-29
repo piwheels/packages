@@ -41,7 +41,6 @@ body:
       label: Python version
       description: To which versions of Python do the package issue relate?
       options:
-        - label: Python 3.5
         - label: Python 3.7
         - label: Python 3.9
   - type: checkboxes
