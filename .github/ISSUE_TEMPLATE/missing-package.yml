@@ -43,6 +43,7 @@ body:
       options:
         - label: Python 3.7
         - label: Python 3.9
+        - label: Python 3.11
   - type: checkboxes
     id: maintainer
     attributes:
