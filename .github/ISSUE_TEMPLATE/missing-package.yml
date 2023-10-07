@@ -45,10 +45,19 @@ body:
         - label: Python 3.9
         - label: Python 3.11
   - type: checkboxes
+    id: aware
+    attributes:
+      label: I am aware this is the issue tracker for a Python package index specifically for Raspberry Pi
+      description: If your issue does not relate to usage on Raspberry Pi using the official distro, please don't create an issue here
+      options:
+        - label: "Yes"
+    validations:
+      required: true
+  - type: checkboxes
     id: maintainer
     attributes:
       label: I am the maintainer
-      description: Are you the maintainer of this package?
+      description: If you are the maintainer of this package, please let us know
       options:
         - label: "Yes"
   - type: textarea
