@@ -54,6 +54,15 @@ body:
     validations:
       required: true
   - type: checkboxes
+    id: duplicates
+    attributes:
+      label: I have checked for duplicate issues
+      description: The project page includes links to existing issues about the package. Please check this issue doesn't already exist.
+      options:
+        - label: "Yes"
+    validations:
+      required: true
+  - type: checkboxes
     id: maintainer
     attributes:
       label: I am the maintainer
