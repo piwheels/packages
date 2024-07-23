@@ -41,7 +41,6 @@ body:
       label: Python version
       description: Which versions of Python are the package missing for?
       options:
-        - label: Python 3.7
         - label: Python 3.9
         - label: Python 3.11
   - type: checkboxes
