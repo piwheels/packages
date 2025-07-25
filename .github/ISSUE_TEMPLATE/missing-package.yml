@@ -39,7 +39,7 @@ body:
     id: python_version
     attributes:
       label: Python version
-      description: Which versions of Python are the package missing for?
+      description: To which versions of Python do the package issue relate?
       options:
         - label: Python 3.9
         - label: Python 3.11
