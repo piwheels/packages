@@ -35,7 +35,7 @@ body:
       placeholder: https://www.piwheels.org/project/example
     validations:
       required: true
-  - type: checkbox
+  - type: checkboxes
     id: python_version
     attributes:
       label: Python version
