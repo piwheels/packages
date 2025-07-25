@@ -1,6 +1,6 @@
 ---
 name: Missing package
-description: Let us know about a package that's missing from piwheels
+description: DO NOT USE. Please use the project page link below.
 title: "Missing package: "
 labels: [missing package]
 body:
