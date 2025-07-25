@@ -23,7 +23,7 @@ body:
     id: pypi_url
     attributes:
       label: PyPI URL
-      description: Link to the PyPI page
+      description: This has been pre-filled automatically. **Do not change this value.**
       placeholder: https://pypi.org/project/example
     validations:
       required: true
@@ -31,7 +31,7 @@ body:
     id: piwheels_url
     attributes:
       label: piwheels URL
-      description: Link to the piwheels project page
+      description: This has been pre-filled automatically. **Do not change this value.**
       placeholder: https://www.piwheels.org/project/example
     validations:
       required: true
@@ -59,13 +59,13 @@ body:
       description: Type `yes` to confirm you have checked for duplicate issues
     validations:
       required: true
-  - type: dropdown
+  - type: checkboxes
     id: maintainer
     attributes:
       label: Are you the project maintainer?
       description: If you are the maintainer of this package, please let us know
       options:
-        - "I am the maintainer"
+        - label: "I am the maintainer"
   - type: textarea
     id: more-info
     attributes:
