@@ -45,22 +45,18 @@ body:
         - label: Python 3.11
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: aware
     attributes:
-      label: This is for Raspberry Pi users only
-      description: If your issue does not relate to usage on Raspberry Pi using the official distro, please don't create an issue here
-      options:
-        - "I am aware this is the issue tracker for a Python package index specifically for Raspberry Pi"
+      label: This is for Raspberry Pi users only. If your issue does not relate to usage on Raspberry Pi using the official distro, please don't create an issue here.
+      description: Type `yes` to confirm you understand this is the issue tracker specifically for Raspberry Pi
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: duplicates
     attributes:
-      label: Check for duplicate issues
-      description: The project page includes links to existing issues about the package. Please check this issue doesn't already exist.
-      options:
-        - "I have checked for duplicate issues"
+      label: The project page includes links to existing issues about the package. Please check this issue doesn't already exist.
+      description: Type `yes` to confirm you have checked for duplicate issues
     validations:
       required: true
   - type: dropdown
@@ -70,7 +66,6 @@ body:
       description: If you are the maintainer of this package, please let us know
       options:
         - "I am the maintainer"
-        - "I am not the maintainer"
   - type: textarea
     id: more-info
     attributes:
