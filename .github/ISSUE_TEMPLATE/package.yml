@@ -35,7 +35,7 @@ body:
       placeholder: https://www.piwheels.org/project/example
     validations:
       required: true
-  - type: dropdown
+  - type: checkbox
     id: python_version
     attributes:
       label: Python version
@@ -43,13 +43,15 @@ body:
       options:
         - label: Python 3.9
         - label: Python 3.11
+    validations:
+      required: true
   - type: dropdown
     id: aware
     attributes:
       label: This is for Raspberry Pi users only
       description: If your issue does not relate to usage on Raspberry Pi using the official distro, please don't create an issue here
       options:
-        - label: "I am aware this is the issue tracker for a Python package index specifically for Raspberry Pi"
+        - "I am aware this is the issue tracker for a Python package index specifically for Raspberry Pi"
     validations:
       required: true
   - type: dropdown
@@ -58,7 +60,7 @@ body:
       label: Check for duplicate issues
       description: The project page includes links to existing issues about the package. Please check this issue doesn't already exist.
       options:
-        - label: "I have checked for duplicate issues"
+        - "I have checked for duplicate issues"
     validations:
       required: true
   - type: dropdown
@@ -67,8 +69,8 @@ body:
       label: Are you the project maintainer?
       description: If you are the maintainer of this package, please let us know
       options:
-        - label: "I am the maintainer"
-        - label: "I am not the maintainer"
+        - "I am the maintainer"
+        - "I am not the maintainer"
   - type: textarea
     id: more-info
     attributes:
