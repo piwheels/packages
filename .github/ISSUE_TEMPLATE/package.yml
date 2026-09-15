@@ -41,7 +41,6 @@ body:
       label: Python version
       description: Which versions of Python do the package issue relate to?
       options:
-        - label: Python 3.9
         - label: Python 3.11
         - label: Python 3.13
     validations:
